@@ -7,3 +7,21 @@ html {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
+
+.news{
+    float: left;
+    width: 50%;
+    height: 100px;
+    background: #567;
+}
+
+#news_left{
+    width: 98%;
+    margin: auto auto;
+    height: 98%;
+    background: white;
+}
+
+#news_right{
+
+}
