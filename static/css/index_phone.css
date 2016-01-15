@@ -17,3 +17,9 @@ html body{
 #ad img {
     max-width: 100%;
 }
+
+#nav{
+    background: #333;
+    height: 50px;
+    width: 100%;
+}
