@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link id="mycss" type="text/css" rel="stylesheet" href="static/css/index_PC.css"/>
+    <link type="text/css" rel="stylesheet" href="static/css/lanrenzhijia.css"/>
     <script src="static/js/toNone.js" type="text/javascript"></script>
     <title>2016峰会特刊</title>
     <script type="text/javascript">
@@ -24,7 +25,41 @@
     <img src="static/img/ad.jpg" onclick="toNone()">
 </div>
 
-<div id="nav">
+<div class="device">
+    <a class="arrow-left" href="#"></a>
+    <a class="arrow-right" href="#"></a>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="http://demo.lanrenzhijia.com/2014/swiper1020/images/slider1-1.png"> </div>
+            <div class="swiper-slide"> <img src="http://demo.lanrenzhijia.com/2014/swiper1020/images/slider1-2.png"> </div>
+            <div class="swiper-slide">
+                <div class="content-slide">
+                    <p class="title">Slide with HTML</p>
+                    <p>You can put any HTML inside of slide with any layout, not only images, even another Swiper!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination"></div>
+</div>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script src="http://www.lanrenzhijia.com/ajaxjs/idangerous.swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container',{
+        pagination: '.pagination',
+        loop:true,
+        grabCursor: true,
+        paginationClickable: true
+    })
+    $('.arrow-left').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipePrev()
+    })
+    $('.arrow-right').on('click', function(e){
+        e.preventDefault()
+        mySwiper.swipeNext()
+    })
+</script>
 
 </div>
 </body>
