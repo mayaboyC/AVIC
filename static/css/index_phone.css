@@ -23,3 +23,7 @@ html body{
     height: 50px;
     width: 100%;
 }
+
+img {
+    max-width: 100%;
+}
