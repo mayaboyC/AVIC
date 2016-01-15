@@ -10,7 +10,7 @@ html body{
 #ad{
     position: absolute;
     width:auto;
-    z-index: 100;
+    z-index: 1000;
     display: block;
 }
 
