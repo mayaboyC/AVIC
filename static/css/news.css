@@ -9,6 +9,7 @@ html {
 }
 
 .news{
+    margin-top: 1%;
     float: left;
     width: 50%;
     height: 100px;
