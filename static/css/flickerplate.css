@@ -60,7 +60,7 @@ font-size:1.667em
 	height:80%;
 	width:10%;
 	top:10%;
-	z-index:100;
+	z-index:10;
 	overflow:hidden
 }
 .flickerplate .arrow-navigation .arrow {
