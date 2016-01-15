@@ -23,6 +23,10 @@ html {
     /*background: #567;*/
 }
 
+.news_main a{
+    text-decoration:none;
+}
+
 .news_photo{
     background: #322;
     height: 70%;
