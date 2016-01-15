@@ -12,7 +12,7 @@ html {
     margin-top: 1%;
     float: left;
     width: 50%;
-    height: 120px;
+    height: 200px;
     background: white;
 }
 
@@ -20,12 +20,19 @@ html {
     width: 98%;
     height: 98%;
     margin: 0 auto;
-    background: #567;
+    /*background: #567;*/
+}
+
+.news_photo{
+    background: #322;
+    height: 70%;
+    width: 100%;
 }
 
 .news_title{
-    color: white;
+    height: 30%;
+    color: black;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
-    font-size: 1.2em;
-    padding: 5%;
+    font-size: 1.1em;
+    padding: 2% 3%;
 }
