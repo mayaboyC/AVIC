@@ -22,3 +22,10 @@ html {
     margin: 0 auto;
     background: #567;
 }
+
+.news_title{
+    color: white;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    font-size: 1.2em;
+    padding: 5%;
+}
