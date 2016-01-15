@@ -16,5 +16,23 @@
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     color: black;
     padding: 0 5%;
+}
 
+#nav{
+    position:relative;
+    width: 100%;
+    height: 40px;
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+    /*background: #879;*/
+}
+
+.nav_header{
+    position:absolute;
+    width: 100%;
+    height:26px;
+    top: 50%;
+    margin-top: -13px;
+    background: #898;
+    margin-left: 10px;
 }
