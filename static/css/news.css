@@ -16,13 +16,16 @@ html {
 }
 
 #news_left{
-    width: 98%;
+    width: 99%;
+    height: 99%;
     margin: 0 auto;
-    margin-top: 1%;
-    height: 98%;
     background: white;
 }
 
 #news_right{
+    width: 99%;
+    height: 99%;
+    margin: 0 auto;
+    background: white;
 
 }
