@@ -38,9 +38,10 @@ html {
     height: 30%;
     color: black;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-weight: 600;
     padding: 2% 3%;
+    line-height: 110%;
 }
 
 img{
