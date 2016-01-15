@@ -4,18 +4,19 @@
 }
 
 .news_mian{
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     color: black;
-    padding: 5% 5%;
+    padding: 5%;
+    width: 100%;
 }
 
 .news_title{
     width: 100%;
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     color: black;
-    padding: 0 5%;
+    padding: 5%;
 }
 
 #nav{
@@ -34,5 +35,4 @@
     top: 50%;
     margin-top: -13px;
     background: #898;
-    margin-left: 10px;
 }
