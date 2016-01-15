@@ -27,6 +27,7 @@ html {
     background: #322;
     height: 70%;
     width: 100%;
+    overflow:hidden;
 }
 
 .news_title{
