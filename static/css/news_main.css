@@ -14,8 +14,9 @@
 
 .news_title h1{
     font-size: 1em;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 100%;
 }
 
 .news_title{
