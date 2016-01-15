@@ -43,3 +43,9 @@ img{
     height: 100%;
 
 }
+
+.news_photo span{
+    position: absolute;
+    color: white;
+    font-size: 0.2em;
+}
