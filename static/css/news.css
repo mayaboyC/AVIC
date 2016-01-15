@@ -36,3 +36,8 @@ html {
     font-size: 1.1em;
     padding: 2% 3%;
 }
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
