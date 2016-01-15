@@ -10,7 +10,10 @@
     width: 100%;
     text-align:justify;
     text-indent: 2em
+}
 
+.news_mian h1{
+    font-size: 2em;
 }
 
 .news_title{
