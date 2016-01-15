@@ -12,21 +12,13 @@ html {
     margin-top: 1%;
     float: left;
     width: 50%;
-    height: 100px;
+    height: 150px;
+    background: white;
+}
+
+.news_main{
+    width: 98%;
+    height: 98%;
+    margin: 0 auto;
     background: #567;
-}
-
-#news_left{
-    width: 99%;
-    height: 99%;
-    margin: 0 auto;
-    background: white;
-}
-
-#news_right{
-    width: 99%;
-    height: 99%;
-    margin: 0 auto;
-    background: white;
-
 }
