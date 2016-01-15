@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="mycss" type="text/css" rel="stylesheet" href="static/css/index_PC.css"/>
+    <script src="static/js/toNone.js" type="text/javascript"></script>
+    <title>2016峰会特刊</title>
+    <script type="text/javascript">
+        windowWidth();
+        window.onresize = windowWidth;
+        function windowWidth(){
+            var w = document.documentElement.clientWidth;
+            if (w>414){
+                document.getElementById("mycss").href = "static/css/index_PC.css"
+            }else{
+                document.getElementById("mycss").href = "static/css/index_phone.css"
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="ad">
+    <img src="static/img/ad.jpg" onclick="toNone()">
+</div>
+</body>
+</html>
