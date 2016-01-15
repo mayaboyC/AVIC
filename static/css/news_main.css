@@ -8,6 +8,9 @@
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     color: black;
     width: 100%;
+    text-align:justify;
+    text-indent: 2em
+
 }
 
 .news_title{
