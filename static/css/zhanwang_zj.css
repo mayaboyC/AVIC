@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.news_mian{
+    font-size: 1em;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: black;
+    width: 100%;
+    text-align:justify;
+    text-indent: 2em;
+}
+
+.news_title h1{
+    font-size: 1em;
+    margin-left: 3%;
+    margin-right: 3%;
+    line-height: 100%;
+}
+
+.news_main p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+
+.news_main h2{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-top: 6%;
+}
+
+.news_main h3{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-indent: 0;
+    margin-bottom: 5%;
+    font-size: 1em;
+    display: block;
+}
+
+.jz_photo{
+    float: left;
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: solid 2px #876;
+    background: #685;
+    margin-left: 3%;
+    margin-right: 2%;
+    top: -5px;
+}
+
+.jz_photo img{
+    position: absolute;
+    max-width: 100%;
+
+}
+
+.news_title{
+    width: 100%;
+    font-size: 2em;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#nav{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+
+    /*background: #879;*/
+}
+
+#nav img {
+    max-width: 100%;
+}
+
+.nav_header{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top: 3%;
+    text-align: left;
+    overflow:hidden;
+
+}
+
+.nav_header p{
+    font-size: 1em;
+    font-weight: 600;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+.nav_header h2{
+    font-size: 2em;
+    font-weight: 400;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+.nav_main{
+    margin-top: 75%;
+    width: 100%;
+    height: 40%;
+    padding-left: 8%;
+    /*background: #987;*/
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.zj_main{
+    float: right;
+    margin-right: 3%;
+    width: 70%;
+    height: auto;
+    background: #679;
+
+}
