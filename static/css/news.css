@@ -24,6 +24,13 @@ html {
     background: white;
 }
 
+.newsImportant_main{
+    width: 100%;
+    height: 98%;
+    margin: 0 auto;
+    background: #567;
+}
+
 .news_main{
     width: 98%;
     height: 98%;
