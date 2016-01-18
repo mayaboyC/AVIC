@@ -20,7 +20,7 @@ html {
     margin-top: 1%;
     float: left;
     width: 100%;
-    height: 180px;
+    height: 260px;
     background: white;
 }
 
@@ -42,11 +42,32 @@ html {
     text-decoration:none;
 }
 
+.news_photo_Important{
+    position: relative;
+    background: #322;
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+
 .news_photo{
     background: #322;
     height: 70%;
     width: 100%;
     overflow:hidden;
+}
+
+.news_title_Important{
+    position: absolute;
+    color: white;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    padding-top: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /*padding: 2% 3%;*/
+    line-height: 110%;
 }
 
 .news_title{
@@ -71,4 +92,12 @@ img{
     font-size: 0.5em;
     padding-top: 1.5%;
     padding-left: 2%;
+}
+
+.newsImportant_column{
+    position: absolute;
+    color: white;
+    font-size: 0.5em;
+    padding-top: 3%;
+    padding-left: 4%;
 }
