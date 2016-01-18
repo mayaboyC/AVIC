@@ -21,6 +21,9 @@
     z-index: 10;
     width: 100%;
     height: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 @media {
@@ -36,11 +39,8 @@
 }
 
 #wz p{
-    margin-top: 5%;
-    margin-bottom: 5%;
     margin-right: 3%;
     margin-left: 3%;
-    float: right;
     color: white;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     font-size: 0.8em;
