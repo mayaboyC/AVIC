@@ -15,21 +15,33 @@
     height: 100%;
 }
 
-
 #wz {
     position:fixed;bottom:0px;left:0px;
     background-color: rgba(0,0,0,0.5);
-    font-size: 0.8em;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     z-index: 10;
     width: 100%;
     height: auto;
-    opacity: 0.5;
-
 }
+
+@media {
+    .demo{
+        background-color:#000000;
+        filter:Alpha(opacity=50);
+        position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+        *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    }
+    .demo p{
+        position: relative;/* 设置子元素为相对定位，可让子元素不继承Alpha值 */
+    }
+}
+
 #wz p{
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-right: 5%;
+    margin-left: 5%;
     float: right;
     color: white;
+    font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif;
+    font-size: 0.8em;
 }
