@@ -12,6 +12,7 @@
     font-weight: lighter;
     text-align:justify;
     text-indent: 2em;
+    filter:dropshadow(offx=3,offy=0)
 }
 
 .news_title h1{
