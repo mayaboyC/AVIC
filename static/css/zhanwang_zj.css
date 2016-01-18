@@ -4,42 +4,36 @@
 }
 
 .news_mian{
-    font-size: 1em;
-    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    /*font-size: 1em;*/
+    /*font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;*/
     color: black;
     width: 100%;
     text-align:justify;
     text-indent: 2em;
 }
 
-.news_title h1{
-    font-size: 1em;
-    margin-left: 3%;
-    margin-right: 3%;
-    line-height: 100%;
+.zj_main p{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
-.news_main p{
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
+.zj_main h2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 3%;
 }
 
-.news_main h2{
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-    margin-top: 6%;
-}
-
-.news_main h3{
-    margin-left: 3%;
-    margin-right: 3%;
+.zj_main h3{
+    margin-left: 2%;
+    margin-right: 2%;
     text-indent: 0;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    font-size: 1em;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 0.5em;
     display: block;
+    color: #333333;
 }
 
 .jz_photo{
@@ -120,7 +114,6 @@
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     color: white;
     font-size: 1em;
-    font-weight: 400;
 }
 
 .zj_main{
@@ -128,6 +121,8 @@
     margin-right: 3%;
     width: 78%;
     height: auto;
-    background: #679;
-
+    background: white;
+    -webkit-box-shadow:0 0 3px #333;
+    -moz-box-shadow:0 0 3px #333;
+    box-shadow:0 0 3px #333;
 }
