@@ -40,6 +40,7 @@
 	padding-right: 1%;
 	font-size:1.6em;
 	line-height:110%;
+	font-weight: 400;
 }
 @media only screen and (max-width: 43.813em) {
 .flickerplate ul.flicks>li .flick-title {
@@ -52,14 +53,14 @@ font-size:1.667em
 	padding:5px;
 	font-weight:300;
 	line-height:110%;
-	color:rgba(255, 255, 255, 0.8);
+	color:white;
 	text-align:justify;
 	text-indent: 2em;
 }
 
 .flicker-example a{
 	text-decoration:none;
-	color:rgba(255, 255, 255, 0.8);;
+	color:white;
 }
 
 .flickerplate ul.flicks>li .flick-title span.flick-block-text, .flickerplate ul.flicks>li .flick-sub-text span.flick-block-text {
