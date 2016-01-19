@@ -4,7 +4,7 @@ function $(element) {
 function $D(element) {
     var d = $(element);
     var h = d.offsetHeight;
-    var maxh = 300;
+    var maxh = 10;
 
     function dmove() {
         if (h >= maxh) {
@@ -34,7 +34,7 @@ function $D2(element) {
         }
     }
 
-    iIntervalId = setInterval(dmove, 2);
+    //iIntervalId = setInterval(dmove, 2);
 }
 function $use(targetid,objN) {
     var d = $(targetid);
