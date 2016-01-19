@@ -125,6 +125,7 @@ body{
 }
 
 hr{
+    height: 1px;
     width: 95%;
     margin: 3% auto;
     color: #999999;
