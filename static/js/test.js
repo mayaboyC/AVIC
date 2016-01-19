@@ -42,7 +42,7 @@ function $use(targetid,objN) {
     if (d.style.display == "block") {
         $D2(targetid);
         d.style.display = "none";
-        sb.style.borderColor = '#ffc90f transparent transparent transparent';
+        sb.style.borderColor = '#e9ce00 transparent transparent transparent';
 
     } else {
         var p = document.getElementsByTagName("ula");
@@ -52,11 +52,11 @@ function $use(targetid,objN) {
             if (p[i] != d) {
                 p[i].style.height = 0;
                 p[i].style.display = "none";
-                ilogo[i].style.borderColor = '#ffc90f transparent transparent transparent';
+                ilogo[i].style.borderColor = '#e9ce00 transparent transparent transparent';
             }
         }
         $D(targetid);
         d.style.display = "block";
-        sb.style.borderColor = '#fff transparent transparent transparent';
+        sb.style.borderColor = '#999 transparent transparent transparent';
     }
 }
