@@ -45,7 +45,7 @@ function $use(targetid,objN) {
         sb.style.borderColor = '#e9ce00 transparent transparent transparent';
 
     } else {
-        var p = document.getElementsByTagName("ula");//控制只准许一个打开，ul
+        var p = document.getElementsByTagName("ul");//控制只准许一个打开，ul
         var ilogo = document.getElementsByTagName("i");
 
         for (var i = 0, l = p.length; i < l; i++) {
