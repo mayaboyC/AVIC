@@ -42,17 +42,17 @@ function $use(targetid,objN) {
     if (d.style.display == "block") {
         $D2(targetid);
         d.style.display = "none";
-        sb.style.borderColor = '#007998 transparent transparent transparent';
+        sb.style.borderColor = '#ffc90f transparent transparent transparent';
 
     } else {
-        var p = document.getElementsByTagName("ul");
+        var p = document.getElementsByTagName("ula");
         var ilogo = document.getElementsByTagName("i");
 
         for (var i = 0, l = p.length; i < l; i++) {
             if (p[i] != d) {
                 p[i].style.height = 0;
                 p[i].style.display = "none";
-                ilogo[i].style.borderColor = '#007998 transparent transparent transparent';
+                ilogo[i].style.borderColor = '#ffc90f transparent transparent transparent';
             }
         }
         $D(targetid);
