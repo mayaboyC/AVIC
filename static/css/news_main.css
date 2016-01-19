@@ -153,4 +153,5 @@ body{
 
 #stateBut1{
     background: url("/static/img/io/i-down.png");
+    background-color: white;
 }
