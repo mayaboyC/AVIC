@@ -116,12 +116,16 @@ body{
     padding: 5px;
 }
 
-.class1 span {
+.class1 i {
     position: absolute;
     right: 10px;
-    top: 8px;
+    top:15px;
     cursor: pointer;
-    color: yellow;
+
+    border-width: 12px 12px 0;
+    border-style: solid;
+    border-color: #007998 transparent transparent transparent;
+
 }
 
 .class1 li {
@@ -139,10 +143,6 @@ body{
     margin-bottom: 3%;
     margin-top: 5%;
     color: #999
-}
-
-.class1 img{
-    max-width: 100%;
 }
 
 #class1content, #class2content, #class3content {

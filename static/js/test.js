@@ -36,26 +36,31 @@ function $D2(element) {
 
     iIntervalId = setInterval(dmove, 2);
 }
-function $use(targetid, objN) {
+function $use(targetid,objN) {
     var d = $(targetid);
     var sb = $(objN);
     if (d.style.display == "block") {
         $D2(targetid);
         d.style.display = "none";
-        sb.innerHTML = "More";
+        sb.style.borderColor = '#007998 transparent transparent transparent';
+        //sb.innerHTML = "More";
+
+
     } else {
         var p = document.getElementsByTagName("ul");
-        var span = document.getElementsByTagName("span");
+        var ilogo = document.getElementsByTagName("i");
 
         for (var i = 0, l = p.length; i < l; i++) {
             if (p[i] != d) {
                 p[i].style.height = 0;
                 p[i].style.display = "none";
-                span[i].innerHTML = "More";
+                ilogo[i].style.borderColor = '#007998 transparent transparent transparent';
+                //ilogo[i].innerHTML = "More";
             }
         }
         $D(targetid);
         d.style.display = "block";
-        sb.innerHTML = 'retract';
+        sb.style.borderColor = '#fff transparent transparent transparent';
+        //sb.innerHTML = 'retract';
     }
 }
