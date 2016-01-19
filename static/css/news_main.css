@@ -125,8 +125,7 @@ body{
 }
 
 hr{
-    border: none;
-    height: 1px;
+    border-style: dotted;
     width: 95%;
     margin: 3% auto;
     color: #666;
