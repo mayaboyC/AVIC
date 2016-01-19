@@ -23,7 +23,7 @@ body{
 }
 
 .news_title h1{
-    font-size: 1em;
+    font-size: 0.9em;
     margin-left: 3%;
     margin-right: 3%;
     line-height: 100%;
@@ -108,7 +108,7 @@ body{
 
 .class1 h2 {
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
-    font-size: 1.6em;
+    font-size: 1.4em;
     text-align: left;
     font-weight: bolder;
     background: #333;
@@ -186,6 +186,8 @@ hr{
     margin-bottom: 3%;
     width: 100%;
     height: auto;
+    text-indent: 0;
+
 }
 
 .newsFigure_photo{
