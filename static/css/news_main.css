@@ -134,6 +134,11 @@ hr{
     border-radius:10%;
 }
 
+.newsFigure_photo img{
+    border-radius: 0;
+    width: 100%;
+}
+
 .class1 i {
     position: absolute;
     right: 3%;
