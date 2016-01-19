@@ -4,7 +4,7 @@ function $(element) {
 function $D(element) {
     var d = $(element);
     var h = d.offsetHeight;
-    var maxh = 10;
+    var maxh = 300;
 
     function dmove() {
         if (h >= maxh) {
@@ -34,7 +34,7 @@ function $D2(element) {
         }
     }
 
-    //iIntervalId = setInterval(dmove, 2);
+    iIntervalId = setInterval(dmove, 2);
 }
 function $use(targetid,objN) {
     var d = $(targetid);
@@ -45,7 +45,7 @@ function $use(targetid,objN) {
         sb.style.borderColor = '#e9ce00 transparent transparent transparent';
 
     } else {
-        var p = document.getElementsByTagName("ula");
+        var p = document.getElementsByTagName("ul");//控制只准许一个打开，ul
         var ilogo = document.getElementsByTagName("i");
 
         for (var i = 0, l = p.length; i < l; i++) {
