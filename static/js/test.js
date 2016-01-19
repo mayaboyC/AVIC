@@ -43,8 +43,6 @@ function $use(targetid,objN) {
         $D2(targetid);
         d.style.display = "none";
         sb.style.borderColor = '#007998 transparent transparent transparent';
-        //sb.innerHTML = "More";
-
 
     } else {
         var p = document.getElementsByTagName("ul");
@@ -55,12 +53,10 @@ function $use(targetid,objN) {
                 p[i].style.height = 0;
                 p[i].style.display = "none";
                 ilogo[i].style.borderColor = '#007998 transparent transparent transparent';
-                //ilogo[i].innerHTML = "More";
             }
         }
         $D(targetid);
         d.style.display = "block";
         sb.style.borderColor = '#fff transparent transparent transparent';
-        //sb.innerHTML = 'retract';
     }
 }

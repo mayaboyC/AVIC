@@ -7,6 +7,8 @@ body{
     background-color: #333;
 }
 
+/*文章题目作者编者按*/
+
 .news_mian{
     font-size: 1.05em;
     line-height: 160%;
@@ -16,7 +18,8 @@ body{
     font-weight: lighter;
     text-align:justify;
     text-indent: 2em;
-    filter:dropshadow(offx=3,offy=0)
+    filter:dropshadow(offx=3,offy=0);
+    margin-bottom: 2%;
 }
 
 .news_title h1{
@@ -31,6 +34,11 @@ body{
     margin-right: 3%;
     text-indent: 0;
     margin-bottom: 5%;
+}
+
+.news_mian p{
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .jz_photo{
@@ -96,7 +104,7 @@ body{
 
 }
 
-/*新增*/
+/*关键词*/
 
 .class1 h2 {
     font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif;
@@ -149,4 +157,22 @@ body{
     height: auto;
     overflow: hidden;
     display: none;
+}
+
+
+/*题图*/
+.newsFigure{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: auto;
+}
+
+.newsFigure_photo{
+    width: 94%;
+    margin: 0 auto;
+}
+
+.newsFigure img{
+    max-width: 100%;
 }
