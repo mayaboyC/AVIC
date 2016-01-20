@@ -22,7 +22,7 @@ body{
 
 hr{
     position: absolute;
-    margin-left: 49.75%;
+    margin-left: 50%;
     z-index: 1000;
     border-color: black;
 }
