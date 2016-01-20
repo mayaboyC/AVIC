@@ -68,15 +68,27 @@ hr{
 
 .news_title_Important{
     position: absolute;
-    color: #999;
+    color: white;
     font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
     font-size: 1.6em;
     font-weight: 400;
-    padding-top: 40%;
+    padding-top: 38%;
     padding-left: 5%;
     padding-right: 5%;
     /*padding: 2% 3%;*/
     line-height: 110%;
+}
+
+.news_title_Important_p{
+    position: absolute;
+    font-size: 0.8em;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    color: white;
+    padding-top: 46%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align:justify;
+    text-indent: 2em;
 }
 
 .news_title{
