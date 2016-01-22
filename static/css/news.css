@@ -165,7 +165,11 @@ img{
 
 #menu a{
     text-decoration:none;
-    color: white;
+    color: #ddd;
+}
+
+#menu i{
+    border-bottom: solid #ffc90f;
 }
 
 #menu ul li{
@@ -187,7 +191,7 @@ img{
 
 #menu p{
     font-size: 0.9em;
-    color: white;
+    color: #ddd;
     line-height: 120%;
     text-align:justify;
     text-indent: 2em;
