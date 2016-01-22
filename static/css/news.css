@@ -121,11 +121,12 @@ img{
 }
 
 #logo{
-    width: 50%;
-    margin: 0 auto;
+    width: 30%;
+    margin-left: 5%;
     height: 90%;
     text-align: center;
     font-size: 8px;
+    /*background: #890;*/
     color: #fff;
 }
 
