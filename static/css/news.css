@@ -216,3 +216,11 @@ img{
     background: url("../img/diwen-1.jpg") ;
     border-top: 5px solid #222;
 }
+
+.footer_main{
+    width: 33%;
+    color: white;
+    font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
+    font-size: 0.6em;
+    height: auto;
+}
