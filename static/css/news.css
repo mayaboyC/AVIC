@@ -3,11 +3,6 @@
     margin: 0;
 }
 
-html {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-weight: 300;
-}
-
 body{
     background: #333;
 }
@@ -107,7 +102,7 @@ hr{
 }
 
 img{
-    height: 100%;
+    max-height: 100%;
 }
 
 #nav {
