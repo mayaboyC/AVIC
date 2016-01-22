@@ -117,13 +117,13 @@ img{
     background: -moz-linear-gradient(top, #e60202, #bf0b0b); /* for firefox 3.6+ */
     width: 100%;
     height: 50px;
+    border-bottom: 1px solid black;
 }
 
 #logo{
     width: 50%;
     margin: 0 auto;
     height: 90%;
-    /*background: #890;*/
     text-align: center;
     font-size: 7px;
     color: #fff;
