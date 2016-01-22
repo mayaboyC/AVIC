@@ -35,16 +35,17 @@
 }
 .flickerplate ul.flicks>li .flick-title {
 	font-family: "Microsoft YaHei", Î¢ÈíÑÅºÚ, "MicrosoftJhengHei", »ªÎÄÏ¸ºÚ, STHeiti, MingLiu, sans-serif;
-	padding-top: 25%;
+	padding-top: 35%;
 	padding-left: 1%;
 	padding-right: 1%;
-	font-size:1.6em;
+	font-size:1.55em;
 	line-height:110%;
 	font-weight: 400;
+	text-shadow: 0 0 10px #000;
 }
 @media only screen and (max-width: 43.813em) {
 .flickerplate ul.flicks>li .flick-title {
-font-size:1.667em
+font-size:1.55em
 }
 }
 .flickerplate ul.flicks>li .flick-sub-text {
@@ -56,6 +57,7 @@ font-size:1.667em
 	color:white;
 	text-align:justify;
 	text-indent: 2em;
+	text-shadow: 0 0 10px #000;
 }
 
 .flicker-example a{
