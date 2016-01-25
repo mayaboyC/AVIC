@@ -141,3 +141,13 @@ body{
 .newsFigure img{
     width: 100%;
 }
+
+.dizhi{
+    margin-top: 10%;
+    line-height: 100%;
+}
+
+.dizhi p{
+    margin-bottom: 1%;
+    color: #ddd;
+}
