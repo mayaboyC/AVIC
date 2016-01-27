@@ -151,3 +151,10 @@ body{
     margin-bottom: 1%;
     color: #ddd;
 }
+
+.nav_header a{
+    color: #999999;
+    float: right;
+    margin-right: 3%;
+    text-decoration:none;
+}

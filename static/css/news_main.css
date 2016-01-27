@@ -9,6 +9,13 @@ body{
 
 /*文章题目作者编者按*/
 
+.nav_header a{
+    color: #999999;
+    float: right;
+    margin-right: 3%;
+    text-decoration:none;
+}
+
 .news_mian{
     font-size: 1.05em;
     line-height: 160%;
